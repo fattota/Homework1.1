@@ -7,7 +7,7 @@
 На тестирование затрачено: 0,5 часа
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/fattota/Homework1.1/issues/1
+* [Неверная сумма при пополнении счета VIP-клиента](https://github.com/fattota/Homework1.1/issues/1) 
 
 
 
@@ -15,16 +15,8 @@
 
 В процессе тестирования использовались следующие артефакты*:
 * IntelliJ IDEA
-* Код:
-public class Main {
+* Код: [Main.java](https://github.com/fattota/Homework1.1/commit/46f7c68072a750af53bb4e65fbe7ce41e0f2f586#diff-1597d2955516e4d404c9395c883d26475c58b27032926237f062392226c69fe9)
 
-  public static void main(String[] args) {
-  int accountBalance = 2_000_000_000;
-  int transferAmount = 500_000_000;
-  int totalSum = accountBalance + transferAmount;
-  System.out.println(totalSum);
-  }
-  }
 
 
 
